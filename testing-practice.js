@@ -1,10 +1,13 @@
-let arr = [1,8,3,4,2,6]
-
-function analyzeArray(array) {
-    let min = Math.min(...array);
-    let max = Math.max(...array);
-    let average = array.reduce((target, val) => target + val, 0)/arr.length;
-    let length = array.length;
+function analyzeArray(arr) {
+    let min = Math.min(...arr);
+    let max = Math.max(...arr);
+    let average = arr.reduce((target, val) => target + val, 0)/arr.length;
+    let length = arr.length;
     return {min, max, average, length};
 }
-module.exports = analyzeArray;
+function capitalize(str){
+    let s = str.split('');
+    s[0] = s[0].toUpperCase();
+    return s.join('');
+}
+ export {analyzeArray, capitalize};

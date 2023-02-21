@@ -1,4 +1,4 @@
-import analyzeArray from './testing-practice';
+import {analyzeArray, capitalize} from './testing-practice';
 
 test('Should return an object with avg, min, max and length', ()=>{
     expect(analyzeArray([1,8,3,4,2,6])).toEqual({
@@ -7,4 +7,8 @@ test('Should return an object with avg, min, max and length', ()=>{
         max: 8,
         length: 6
       })
+})
+
+test('Should return capitalized string', ()=>{
+  expect(capitalize('hello')).toEqual('Hello')
 })
