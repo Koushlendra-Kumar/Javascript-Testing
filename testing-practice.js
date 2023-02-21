@@ -10,4 +10,25 @@ function capitalize(str){
     s[0] = s[0].toUpperCase();
     return s.join('');
 }
- export {analyzeArray, capitalize};
+
+function add(a,b){
+    return a + b;
+}
+
+function subtract(a,b){
+    return a - b;
+}
+
+function multiply(a,b){
+    return a * b;
+}
+
+function divide(a,b){
+    return a / b;
+}
+
+function reverseString(str){
+    return str.split('').reverse().join('');
+}
+
+ export {analyzeArray, capitalize, add, subtract, multiply, divide, reverseString};
