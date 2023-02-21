@@ -1,4 +1,4 @@
-const analyzeArray = require('./testing-practice');
+import analyzeArray from './testing-practice';
 
 test('Should return an object with avg, min, max and length', ()=>{
     expect(analyzeArray([1,8,3,4,2,6])).toEqual({
