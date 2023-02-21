@@ -1,0 +1,24 @@
+{
+  "name": "javascript-testing",
+  "version": "1.0.0",
+  "description": "Test Driven Development (TDD)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Koushlendra-Kumar/Javascript-Testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Koushlendra-Kumar/Javascript-Testing/issues"
+  },
+  "homepage": "https://github.com/Koushlendra-Kumar/Javascript-Testing#readme",
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}
